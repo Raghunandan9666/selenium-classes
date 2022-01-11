@@ -27,6 +27,8 @@ public class FileUpload {
 		driver.findElement(By.id("file-upload")).sendKeys("C:\\Users\\chbha\\Downloads\\UseCaseGuidelines.doc");
 		
 		driver.findElement(By.id("file-submit")).click();
+	
+		driver.findElement(By.name("raghu")))
 
 	}
 
